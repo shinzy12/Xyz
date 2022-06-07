@@ -159,7 +159,7 @@ SCRIPT INI BERSIFAT PRIFAT, JADI JIKA INGIN MENGGUNAKAN WAJIB LAPOR AUTHOR
    / __ `__ \/ / / / / __/ /  / __/ __ \/ __ \/ / ___/
   / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
 /_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ 
-proxy aktif'''
+PROXY=AKTIF✓'''
 	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
 	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
 # VALIDASI TOKEN
