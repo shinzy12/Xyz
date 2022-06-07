@@ -157,7 +157,8 @@ def banner():
     ____ ___  __  __/ / /_(_)  / /_____  ____  / /____
    / __ `__ \/ / / / / __/ /  / __/ __ \/ __ \/ / ___/
   / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
-/_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ '''
+/_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ 
+proxy aktif'''
 	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
 	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
 # VALIDASI TOKEN
