@@ -1,4 +1,4 @@
-#----------------------------------------
+# Coding by MR.shin-xyz
 # Github  : https://github.com/Shinzy12
 #----------------------------------------
 import marshal
