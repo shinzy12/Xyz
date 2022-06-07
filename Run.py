@@ -153,7 +153,7 @@ def banner():
    \__ \/ /_/ // //  |/ /  / /  \  /
   ___// __  // // /|  /  / /__ / /
 /____/_/ /_/___/_/ |_/  /____//_/
-SCRIPT INI BERSIFAT PRIFAT, JADI JIKA INGIN MENGGUNAKAN WAJIB LAPOR AUTHOR
+SCRIPT INI BERSIFAT PRIVASI, JADI JIKA INGIN MENGGUNAKAN WAJIB LAPOR AUTHOR
                   ____  _    __              __
     ____ ___  __  __/ / /_(_)  / /_____  ____  / /____
    / __ `__ \/ / / / / __/ /  / __/ __ \/ __ \/ / ___/
