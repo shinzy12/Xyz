@@ -1,4 +1,3 @@
-# Compile : Shin
 # Facebook : Zainul Umam ID
 # Github  : https://github.com/Shinzy12
 
