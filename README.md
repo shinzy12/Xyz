@@ -10,12 +10,10 @@ $ pip install cython
 
 $ pip install rich
 
+$ rm -rf Xyz
+
 $ git clone https://github.com/shinzy12/Xyz
 
 $ cd Xyz
 
 $ python Run.py
-
-
-
-
